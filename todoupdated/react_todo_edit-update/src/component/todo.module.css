@@ -1,0 +1,160 @@
+h1 {
+  padding: 0px;
+  margin: 0px;
+  letter-spacing: 20px;
+}
+
+h3 {
+  padding: 0px;
+  margin: 0px;
+  word-spacing: 5px;
+  color: white;
+}
+
+.main1 {
+  width: 90%;
+  margin: auto;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid white;
+  /* background: #ff91008c; */
+  padding: 0px 20px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+.main1 input {
+  width: 80%;
+  height: 100%;
+  background: none;
+  background-color: none;
+  border: none;
+  font-size: 20px;
+}
+
+.main1 input:focus {
+  outline-width: 0;
+}
+
+.main1 input::placeholder {
+  color: white;
+}
+
+.main1 button {
+  width: 5%;
+  height: 100%;
+  border: none;
+  background: none;
+  font-size: 40px;
+  color: white;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+  margin-top: -10px;
+  margin-left: 10px;
+}
+
+.main2 {
+  width: 100%;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.Lists {
+  width: 95%;
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: blueviolet;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 0 20px;
+  border-radius: 10px;
+}
+
+.Lists1 {
+  display: flex;
+  align-items: center;
+}
+.Lists1 div {
+  color: white;
+  font-size: 18px;
+}
+
+.btnDIv {
+  display: flex;
+  align-items: center;
+}
+
+.btn2,
+.btn1,
+.btn3 {
+  width: 40px;
+  height: 70%;
+  background: none;
+  border: none;
+}
+.btn2 img,
+.btn1 img,
+.btn3 img {
+  width: 100%;
+}
+
+.editInput {
+  height: 25px;
+  width: 200px;
+  border-radius: 8px;
+  border: 2px solid white;
+  background-color: rgb(245, 188, 245);
+  box-sizing: border-box;
+  padding: 5px 15px;
+}
+
+.editInput::placeholder {
+  color: black;
+}
+
+input.TodoList {
+  width: 20px;
+  height: 20px;
+}
+
+.prevbtn,.nextbtn {
+  background-color: white;
+  padding: 3px 16px;
+  font-weight: bold;
+}
+
+.selectDiv{
+    /* border: 2px solid red; */
+    border-bottom: 4px solid white;
+    width: 50%;
+    display: flex;
+    padding: 5px 20px;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #797979; */
+    margin-top: 2%;
+    margin-left: 3%;
+    /* border-radius: 12px; */
+}
+.selectDiv h3{
+    color: white;
+}
+.selectTAg {
+    font-size: 17px;
+    margin-top: 3px;
+  color: white;
+  background: none;
+  border: none;
+}
+
+.options{
+    background-color: black;
+}

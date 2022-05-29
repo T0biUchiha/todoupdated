@@ -1,0 +1,12 @@
+
+.App {
+  text-align: center;
+  /* border: 2px solid red; */
+  width: 35%;
+  margin: auto;
+  background:url('https://media.istockphoto.com/vectors/retro-abstract-blue-and-purple-neon-lights-on-black-brick-wall-vector-id1257206946?k=20&m=1257206946&s=612x612&w=0&h=AiVQ_DLHCQLjI2W9dDOnPm3P6GF8IuO8bQEwnVyVVNI=') center center/cover;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  margin-top: 4%;
+  box-sizing: border-box;
+}
+
